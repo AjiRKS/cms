@@ -1,0 +1,125 @@
+/* Tampilan Umum */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.add-button {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+/* Tampilan Form Berita */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-container input[type="text"],
+.form-container textarea,
+.form-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form-container input[type="submit"],
+.form-container input[type="button"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Tampilan Edit Berita */
+.edit-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.edit-container input[type="text"],
+.edit-container textarea,
+.edit-container select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.edit-container input[type="submit"],
+.edit-container input[type="button"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Tampilan Lebih Menarik */
+.container {
+  background-color: #f5f5f5;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007bff;
+}
+
+table {
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.add-button input[type="submit"],
+.add-button input[type="button"] {
+  background-color: #28a745;
+}
+
+.form-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input[type="submit"],
+.form-container input[type="button"] {
+  background-color: #007bff;
+}
+
+.edit-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.edit-container input[type="submit"],
+.edit-container input[type="button"] {
+  background-color: #007bff;
+}
